@@ -14,7 +14,7 @@ export const s = StyleSheet.create({
     flex: 5,
   },
   footer: {
-    flex: 0.5,
+    height: 80,
     backgroundColor: "white",
   },
   cardItem: {
