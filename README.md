@@ -35,7 +35,8 @@ This is a basic **React Native** project developed as a part of my learning jour
 
 ## App demo
 
-https://github.com/user-attachments/assets/1ca98b5f-2fc7-49b3-bc6f-61262413c7d3
+https://github.com/user-attachments/assets/b861c2f5-c3f1-48e0-ba55-20ff08dcbf49
+
 
 ---
 
