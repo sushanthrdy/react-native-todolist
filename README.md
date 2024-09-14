@@ -9,7 +9,7 @@ This is a basic **React Native** project developed as a part of my learning jour
 1. [Features](#features)
 2. [Technologies Used](#technologies-used)
 3. [Getting Started](#getting-started)
-4. [Screenshots](#screenshots)
+4. [App demo](#app-demo)
 5. [Installation](#installation)
 6. [Usage](#usage)
 7. [Acknowledgements](#acknowledgements)
@@ -33,8 +33,9 @@ This is a basic **React Native** project developed as a part of my learning jour
 
 ---
 
-## Screenshots
+## App demo
 
+https://github.com/user-attachments/assets/1ca98b5f-2fc7-49b3-bc6f-61262413c7d3
 
 ---
 
