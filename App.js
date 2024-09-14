@@ -15,8 +15,19 @@ export default function App() {
 
   const [selectedTabName, setSelectedTabName] = useState("all");
 
+  function getFilteredList() {
+    switch (selectedTabName) {
+      case "all":
+        return todoList;
+      case "inProgress":
+        return todoList.filter((todo) => !todo.isCompleted);
+      case "done":
+        return todoList.filter((todo) => todo.isCompleted);
+    }
+  }
+
   function renderTodoList() {
-    return todoList.map((todo) => (
+    return getFilteredList().map((todo) => (
       <View key={todo.id} style={s.cardItem}>
         <ToDoCard todo={todo} onPress={updateTodo} />
       </View>
@@ -42,8 +53,9 @@ export default function App() {
         </View>
         <View style={s.footer}>
           <TabBottomMenu
+            todoList={todoList}
             selectedTabName={selectedTabName}
-            onPress={(selectedTabName) => setSelectedTabName(selectedTabName)}
+            onPress={setSelectedTabName}
           />
         </View>
       </SafeAreaView>

@@ -15,7 +15,6 @@ export const s = StyleSheet.create({
   },
   footer: {
     flex: 0.5,
-    elevation: 8,
     backgroundColor: "white",
   },
   cardItem: {
